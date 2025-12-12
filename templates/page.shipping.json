@@ -1,0 +1,142 @@
+{
+  "sections": {
+    "header": {
+      "type": "rich-text",
+      "blocks": {
+        "heading": {
+          "type": "heading",
+          "settings": {
+            "heading": "Shipping & Delivery",
+            "heading_size": "h0"
+          }
+        },
+        "text": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Complimentary standard shipping. Express options shown at checkout based on your location.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading",
+        "text"
+      ],
+      "settings": {
+        "desktop_content_position": "left",
+        "content_alignment": "left",
+        "color_scheme": "scheme-2",
+        "full_width": true,
+        "padding_top": 32,
+        "padding_bottom": 16
+      }
+    },
+    "details": {
+      "type": "rich-text",
+      "blocks": {
+        "heading": {
+          "type": "heading",
+          "settings": {
+            "heading": "Timelines",
+            "heading_size": "h2"
+          }
+        },
+        "text": {
+          "type": "text",
+          "settings": {
+            "text": "<ul><li>Standard: typically 3-5 business days domestic; 5-10 business days international.</li><li>Express: offered where available at checkout.</li><li>Tracking: shared by email once your order ships and visible in your account.</li></ul>"
+          }
+        }
+      },
+      "block_order": [
+        "heading",
+        "text"
+      ],
+      "settings": {
+        "desktop_content_position": "left",
+        "content_alignment": "left",
+        "color_scheme": "scheme-1",
+        "full_width": true,
+        "padding_top": 20,
+        "padding_bottom": 20
+      }
+    },
+    "notes": {
+      "type": "rich-text",
+      "blocks": {
+        "heading": {
+          "type": "heading",
+          "settings": {
+            "heading": "Customs & duties",
+            "heading_size": "h2"
+          }
+        },
+        "text": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Duties and taxes are calculated at checkout where supported; otherwise they are payable to the carrier on delivery.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading",
+        "text"
+      ],
+      "settings": {
+        "desktop_content_position": "left",
+        "content_alignment": "left",
+        "color_scheme": "scheme-1",
+        "full_width": true,
+        "padding_top": 20,
+        "padding_bottom": 20
+      }
+    },
+    "cta": {
+      "type": "rich-text",
+      "blocks": {
+        "heading": {
+          "type": "heading",
+          "settings": {
+            "heading": "Need routing help?",
+            "heading_size": "h2"
+          }
+        },
+        "text": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Email concierge@minervalifestyle.com for carrier preferences or address changes within one hour of purchase.</p>"
+          }
+        },
+        "buttons": {
+          "type": "button",
+          "settings": {
+            "button_label": "Contact Concierge",
+            "button_link": "mailto:concierge@minervalifestyle.com",
+            "button_style_secondary": false,
+            "button_label_2": "Support Home",
+            "button_link_2": "/pages/support",
+            "button_style_secondary_2": true
+          }
+        }
+      },
+      "block_order": [
+        "heading",
+        "text",
+        "buttons"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "scheme-2",
+        "full_width": true,
+        "padding_top": 24,
+        "padding_bottom": 28
+      }
+    }
+  },
+  "order": [
+    "header",
+    "details",
+    "notes",
+    "cta"
+  ]
+}

@@ -1,6 +1,6 @@
 ---
 name: Bug report
-about: Use this template for reporting a bug
+about: Use this template for reporting a bug in the Minerva Shopify theme
 labels: bug
 ---
 
@@ -10,11 +10,11 @@ labels: bug
 ## Describe the expected behavior
 
 
-## Version information (Dawn, browsers and operating systems)
+## Version information (theme, store, browsers)
 
-- Dawn Version: 7.0.1
-- Chrome Version 108.0.5359.124
-- macOS Version 13.1
+- Theme version (commit hash or tag):
+- Storefront used for testing:
+- Browser and OS:
 
 ## Possible solution
 

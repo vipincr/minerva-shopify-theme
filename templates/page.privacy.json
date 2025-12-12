@@ -1,0 +1,45 @@
+{
+  "sections": {
+    "header": {
+      "type": "rich-text",
+      "blocks": {
+        "heading": {
+          "type": "heading",
+          "settings": {
+            "heading": "Privacy Policy",
+            "heading_size": "h0"
+          }
+        },
+        "text": {
+          "type": "text",
+          "settings": {
+            "text": "<p>How we collect, use, and protect your information across Minerva Lifestyle experiences.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading",
+        "text"
+      ],
+      "settings": {
+        "desktop_content_position": "left",
+        "content_alignment": "left",
+        "color_scheme": "scheme-2",
+        "full_width": true,
+        "padding_top": 32,
+        "padding_bottom": 16
+      }
+    },
+    "body": {
+      "type": "main-page",
+      "settings": {
+        "padding_top": 20,
+        "padding_bottom": 24
+      }
+    }
+  },
+  "order": [
+    "header",
+    "body"
+  ]
+}

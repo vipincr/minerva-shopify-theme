@@ -444,7 +444,7 @@
     {
       "type": "inline_richtext",
       "id": "newsletter_heading",
-      "default": "t:sections.footer.settings.newsletter_heading.default",
+      "default": "Join the Archive",
       "label": "t:sections.footer.settings.newsletter_heading.label"
     },
     {
@@ -534,10 +534,32 @@
   "default": {
     "blocks": [
       {
-        "type": "link_list"
+        "type": "link_list",
+        "settings": {
+          "heading": "Shop",
+          "menu": "footer"
+        }
       },
       {
-        "type": "text"
+        "type": "link_list",
+        "settings": {
+          "heading": "Support",
+          "menu": "footer"
+        }
+      },
+      {
+        "type": "link_list",
+        "settings": {
+          "heading": "Company",
+          "menu": "footer"
+        }
+      },
+      {
+        "type": "text",
+        "settings": {
+          "heading": "Crafted for women who dress for a life in motion.",
+          "subtext": ""
+        }
       }
     ]
   }

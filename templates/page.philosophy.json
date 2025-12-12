@@ -1,0 +1,398 @@
+{
+  "sections": {
+    "hero": {
+      "type": "image-banner",
+      "blocks": {
+        "label": {
+          "type": "heading",
+          "settings": {
+            "heading": "Our Story",
+            "heading_size": "h3"
+          }
+        },
+        "title": {
+          "type": "heading",
+          "settings": {
+            "heading": "Power Can Be Quiet",
+            "heading_size": "h0"
+          }
+        },
+        "subtitle": {
+          "type": "text",
+          "settings": {
+            "text": "Minerva was created for the woman who dresses for a life in motion.",
+            "text_style": "body"
+          }
+        },
+        "buttons": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "Shop the Collection",
+            "button_link_1": "/collections/terpsichorean",
+            "button_style_secondary_1": false,
+            "button_label_2": "Visit Support",
+            "button_link_2": "/pages/support",
+            "button_style_secondary_2": true
+          }
+        }
+      },
+      "block_order": [
+        "label",
+        "title",
+        "subtitle",
+        "buttons"
+      ],
+      "settings": {
+        "image_overlay_opacity": 70,
+        "image_height": "large",
+        "desktop_content_position": "middle-center",
+        "show_text_box": false,
+        "desktop_content_alignment": "center",
+        "color_scheme": "scheme-3",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": false,
+        "show_text_below": false
+      }
+    },
+    "intro": {
+      "type": "rich-text",
+      "blocks": {
+        "heading": {
+          "type": "heading",
+          "settings": {
+            "heading": "Elegance is a discipline.",
+            "heading_size": "h2"
+          }
+        },
+        "text": {
+          "type": "text",
+          "settings": {
+            "text": "<p>You move through your days like choreography. Calls, flights, dinners, deadlines. You choose objects that keep pace without shouting.<\/p><p>Not the girl who dresses for a photograph, but the woman who dresses for a life in motion. Minerva was made for her.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading",
+        "text"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "scheme-1",
+        "full_width": true,
+        "padding_top": 32,
+        "padding_bottom": 24
+      }
+    },
+    "pillars": {
+      "type": "multicolumn",
+      "blocks": {
+        "pillar1": {
+          "type": "column",
+          "settings": {
+            "title": "Movement-Born",
+            "text": "<p>Comfort first, then structure, then aesthetic.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "pillar2": {
+          "type": "column",
+          "settings": {
+            "title": "Rituals of Care",
+            "text": "<p>What is worth having is worth tending to.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "pillar3": {
+          "type": "column",
+          "settings": {
+            "title": "Your Archive",
+            "text": "<p>Pieces you keep, not replace.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "pillar1",
+        "pillar2",
+        "pillar3"
+      ],
+      "settings": {
+        "title": "Three Pillars of Minerva Design",
+        "heading_size": "h3",
+        "image_width": "half",
+        "image_ratio": "adapt",
+        "columns_desktop": 3,
+        "column_alignment": "left",
+        "background_style": "none",
+        "button_label": "",
+        "button_link": "",
+        "swipe_on_mobile": false,
+        "color_scheme": "scheme-2",
+        "columns_mobile": "1",
+        "padding_top": 24,
+        "padding_bottom": 16
+      }
+    },
+    "question": {
+      "type": "rich-text",
+      "blocks": {
+        "heading": {
+          "type": "heading",
+          "settings": {
+            "heading": "Everything begins with movement.",
+            "heading_size": "h1"
+          }
+        },
+        "text": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Every Minerva piece starts with a single question: how does this feel in motion?<\/p><p>Nothing is loud. Everything is precise.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading",
+        "text"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "scheme-1",
+        "full_width": true,
+        "padding_top": 20,
+        "padding_bottom": 20
+      }
+    },
+    "approach": {
+      "type": "multicolumn",
+      "blocks": {
+        "approach1": {
+          "type": "column",
+          "settings": {
+            "title": "Stagecraft to Product Craft",
+            "text": "<p>A badly balanced shoe can end a performance. We design with that discipline.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "approach2": {
+          "type": "column",
+          "settings": {
+            "title": "Accessories as Talismans",
+            "text": "<p>Sculptural motifs like the ginkgo and the infinity curve, built to be felt.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "approach3": {
+          "type": "column",
+          "settings": {
+            "title": "Luxury Extends to Care",
+            "text": "<p>Care is a ritual. Each material receives its own regimen to endure.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "approach1",
+        "approach2",
+        "approach3"
+      ],
+      "settings": {
+        "title": "A House of Movement",
+        "heading_size": "h2",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 3,
+        "column_alignment": "left",
+        "background_style": "none",
+        "button_label": "",
+        "button_link": "",
+        "swipe_on_mobile": false,
+        "color_scheme": "scheme-1",
+        "columns_mobile": "1",
+        "padding_top": 24,
+        "padding_bottom": 24
+      }
+    },
+    "quote": {
+      "type": "rich-text",
+      "blocks": {
+        "text": {
+          "type": "text",
+          "settings": {
+            "text": "<p><em>True luxury is not about excess; it is about standards. You recognize a Minerva piece because it feels like it was made for a woman already sure of herself.<\/em><\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "text"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "scheme-2",
+        "full_width": true,
+        "padding_top": 24,
+        "padding_bottom": 24
+      }
+    },
+    "values": {
+      "type": "multicolumn",
+      "blocks": {
+        "value1": {
+          "type": "column",
+          "settings": {
+            "title": "Composed Strength",
+            "text": "<p>Calm, assured, quietly powerful—never frantic or flashy.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "value2": {
+          "type": "column",
+          "settings": {
+            "title": "Disciplined Elegance",
+            "text": "<p>Beauty is the result of testing, editing, and restraint so she can feel effortless.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "value3": {
+          "type": "column",
+          "settings": {
+            "title": "Quiet Rarity",
+            "text": "<p>Limited runs and controlled distribution. Rarity is earned by craft.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "value1",
+        "value2",
+        "value3"
+      ],
+      "settings": {
+        "title": "Precision Over Noise",
+        "heading_size": "h2",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 3,
+        "column_alignment": "left",
+        "background_style": "none",
+        "button_label": "",
+        "button_link": "",
+        "swipe_on_mobile": false,
+        "color_scheme": "scheme-2",
+        "columns_mobile": "1",
+        "padding_top": 24,
+        "padding_bottom": 24
+      }
+    },
+    "origin": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading": {
+          "type": "heading",
+          "settings": {
+            "heading": "Goddess, Not Muse",
+            "heading_size": "h2"
+          }
+        },
+        "text": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Minerva is the quiet goddess of strategy, craft, and the arts—a patron of those who create with intellect and intuition.<\/p><p>She is in motion: walking, working, traveling. Everything we create honors the body in movement: balanced, fluid, engineered for long wear.<\/p><p>She chooses. She moves. She arrives.<\/p>"
+          }
+        },
+        "button": {
+          "type": "button",
+          "settings": {
+            "button_label": "Shop the Collection",
+            "button_link": "/collections/terpsichorean",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "heading",
+        "text",
+        "button"
+      ],
+      "settings": {
+        "image": "",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "center",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "scheme-1",
+        "mobile_content_alignment": "left",
+        "padding_top": 24,
+        "padding_bottom": 24,
+        "image_behavior": "none",
+        "section_color_scheme": "scheme-1"
+      }
+    },
+    "cta": {
+      "type": "rich-text",
+      "blocks": {
+        "heading": {
+          "type": "heading",
+          "settings": {
+            "heading": "Your Archive Awaits",
+            "heading_size": "h2"
+          }
+        },
+        "text": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Collections arrive as numbered chapters. Considered, limited, and built to be kept.<\/p>"
+          }
+        },
+        "buttons": {
+          "type": "button",
+          "settings": {
+            "button_label": "Shop the Collection",
+            "button_link": "/collections/terpsichorean",
+            "button_style_secondary": false,
+            "button_label_2": "Contact Concierge",
+            "button_link_2": "/pages/contact",
+            "button_style_secondary_2": true
+          }
+        }
+      },
+      "block_order": [
+        "heading",
+        "text",
+        "buttons"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "scheme-2",
+        "full_width": true,
+        "padding_top": 28,
+        "padding_bottom": 36
+      }
+    }
+  },
+  "order": [
+    "hero",
+    "intro",
+    "pillars",
+    "question",
+    "approach",
+    "quote",
+    "values",
+    "origin",
+    "cta"
+  ]
+}

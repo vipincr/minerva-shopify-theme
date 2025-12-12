@@ -1,11 +1,11 @@
 [
   {
     "name": "theme_info",
-    "theme_name": "Dawn",
+    "theme_name": "Minerva Lifestyle Shopify Theme",
     "theme_version": "15.4.1",
-    "theme_author": "Shopify",
-    "theme_documentation_url": "https://help.shopify.com/manual/online-store/themes",
-    "theme_support_url": "https://support.shopify.com/"
+    "theme_author": "Minerva Lifestyle",
+    "theme_documentation_url": "https://github.com/vipinr/minerva-shopify-theme",
+    "theme_support_url": "mailto:concierge@minervalifestyle.com"
   },
   {
     "name": "t:settings_schema.logo.name",

@@ -1,25 +1,91 @@
 {
   "sections": {
-    "main": {
-      "type": "main-page",
+    "hero": {
+      "type": "image-banner",
+      "blocks": {
+        "label": {
+          "type": "heading",
+          "settings": {
+            "heading": "Concierge",
+            "heading_size": "h3"
+          }
+        },
+        "title": {
+          "type": "heading",
+          "settings": {
+            "heading": "How can we assist?",
+            "heading_size": "h0"
+          }
+        },
+        "subtitle": {
+          "type": "text",
+          "settings": {
+            "text": "We answer every message within 24 hours.",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "label",
+        "title",
+        "subtitle"
+      ],
       "settings": {
-        "padding_top": 36,
-        "padding_bottom": 36
+        "image_overlay_opacity": 60,
+        "image_height": "medium",
+        "desktop_content_position": "middle-center",
+        "show_text_box": false,
+        "desktop_content_alignment": "center",
+        "color_scheme": "scheme-3",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": false,
+        "show_text_below": false
+      }
+    },
+    "contact_info": {
+      "type": "rich-text",
+      "blocks": {
+        "heading": {
+          "type": "heading",
+          "settings": {
+            "heading": "Reach the Minerva team",
+            "heading_size": "h2"
+          }
+        },
+        "text": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Email concierge@minervalifestyle.com or call +91 78889 89996 (Mon-Sat 10:00-19:00 IST).<\/p><p>Visit: G-203, Ekta Bhoomi Gardens, Borivali East, Mumbai 400066.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading",
+        "text"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "scheme-1",
+        "full_width": true,
+        "padding_top": 20,
+        "padding_bottom": 20
       }
     },
     "form": {
       "type": "contact-form",
       "settings": {
-        "heading": "",
-        "heading_size": "h1",
-        "color_scheme": "scheme-1",
-        "padding_top": 36,
+        "heading": "Send us a note",
+        "heading_size": "h2",
+        "color_scheme": "scheme-2",
+        "padding_top": 24,
         "padding_bottom": 36
       }
     }
   },
   "order": [
-    "main",
+    "hero",
+    "contact_info",
     "form"
   ]
 }

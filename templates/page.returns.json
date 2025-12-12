@@ -1,0 +1,208 @@
+{
+  "sections": {
+    "header": {
+      "type": "rich-text",
+      "blocks": {
+        "heading": {
+          "type": "heading",
+          "settings": {
+            "heading": "Returns & Exchanges",
+            "heading_size": "h0"
+          }
+        },
+        "text": {
+          "type": "text",
+          "settings": {
+            "text": "<p>We want you to love your Minerva pieces. If something is not right, we are here to help within 30 days of delivery.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading",
+        "text"
+      ],
+      "settings": {
+        "desktop_content_position": "left",
+        "content_alignment": "left",
+        "color_scheme": "scheme-2",
+        "full_width": true,
+        "padding_top": 32,
+        "padding_bottom": 16
+      }
+    },
+    "highlights": {
+      "type": "multicolumn",
+      "blocks": {
+        "window": {
+          "type": "column",
+          "settings": {
+            "title": "30-Day Window",
+            "text": "<p>Counted from delivery date.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "returns": {
+          "type": "column",
+          "settings": {
+            "title": "Complimentary Returns",
+            "text": "<p>Prepaid label after approval.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "exchanges": {
+          "type": "column",
+          "settings": {
+            "title": "Free Exchanges",
+            "text": "<p>Swap sizes or colors within the window.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "window",
+        "returns",
+        "exchanges"
+      ],
+      "settings": {
+        "title": "What to expect",
+        "heading_size": "h2",
+        "image_width": "half",
+        "image_ratio": "adapt",
+        "columns_desktop": 3,
+        "column_alignment": "left",
+        "background_style": "accent",
+        "button_label": "",
+        "button_link": "",
+        "swipe_on_mobile": false,
+        "color_scheme": "scheme-2",
+        "columns_mobile": "1",
+        "padding_top": 20,
+        "padding_bottom": 20
+      }
+    },
+    "policy": {
+      "type": "rich-text",
+      "blocks": {
+        "heading": {
+          "type": "heading",
+          "settings": {
+            "heading": "Return Policy",
+            "heading_size": "h2"
+          }
+        },
+        "text": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Items must be unworn, with all original packaging and tags. Submit within 30 days of delivery for a refund to your original payment method once inspected.<\/p><ul><li>Unworn items in original condition</li><li>All tags and accessories included (dust bag, box, cards)</li><li>Prepaid labels provided after approval</li><li>Final sale items are excluded</li></ul>"
+          }
+        }
+      },
+      "block_order": [
+        "heading",
+        "text"
+      ],
+      "settings": {
+        "desktop_content_position": "left",
+        "content_alignment": "left",
+        "color_scheme": "scheme-1",
+        "full_width": true,
+        "padding_top": 20,
+        "padding_bottom": 20
+      }
+    },
+    "steps": {
+      "type": "rich-text",
+      "blocks": {
+        "heading": {
+          "type": "heading",
+          "settings": {
+            "heading": "How to return",
+            "heading_size": "h2"
+          }
+        },
+        "text": {
+          "type": "text",
+          "settings": {
+            "text": "<ol><li>Initiate your return via account or email returns@minervalifestyle.com.<\/li><li>Pack items with original box, dust bag, and tags.<\/li><li>Attach the prepaid label and drop at the carrier shown on the label.<\/li><li>Refunds process within 5-7 business days after inspection.<\/li></ol>"
+          }
+        },
+        "buttons": {
+          "type": "button",
+          "settings": {
+            "button_label": "Start a Return",
+            "button_link": "/pages/track-order",
+            "button_style_secondary": false,
+            "button_label_2": "Contact Concierge",
+            "button_link_2": "mailto:returns@minervalifestyle.com",
+            "button_style_secondary_2": true
+          }
+        }
+      },
+      "block_order": [
+        "heading",
+        "text",
+        "buttons"
+      ],
+      "settings": {
+        "desktop_content_position": "left",
+        "content_alignment": "left",
+        "color_scheme": "scheme-1",
+        "full_width": true,
+        "padding_top": 20,
+        "padding_bottom": 24
+      }
+    },
+    "cta": {
+      "type": "rich-text",
+      "blocks": {
+        "heading": {
+          "type": "heading",
+          "settings": {
+            "heading": "Need help?",
+            "heading_size": "h2"
+          }
+        },
+        "text": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Our concierge team will guide you through sizing, exchanges, or status updates.<\/p>"
+          }
+        },
+        "buttons": {
+          "type": "button",
+          "settings": {
+            "button_label": "Email Concierge",
+            "button_link": "mailto:concierge@minervalifestyle.com",
+            "button_style_secondary": false,
+            "button_label_2": "Support Home",
+            "button_link_2": "/pages/support",
+            "button_style_secondary_2": true
+          }
+        }
+      },
+      "block_order": [
+        "heading",
+        "text",
+        "buttons"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "scheme-2",
+        "full_width": true,
+        "padding_top": 24,
+        "padding_bottom": 32
+      }
+    }
+  },
+  "order": [
+    "header",
+    "highlights",
+    "policy",
+    "steps",
+    "cta"
+  ]
+}

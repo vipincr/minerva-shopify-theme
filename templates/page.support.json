@@ -1,0 +1,190 @@
+{
+  "sections": {
+    "hero": {
+      "type": "image-banner",
+      "blocks": {
+        "label": {
+          "type": "heading",
+          "settings": {
+            "heading": "Support",
+            "heading_size": "h3"
+          }
+        },
+        "title": {
+          "type": "heading",
+          "settings": {
+            "heading": "How Can We Help?",
+            "heading_size": "h0"
+          }
+        },
+        "subtitle": {
+          "type": "text",
+          "settings": {
+            "text": "Our concierge team is here to make every Minerva experience exceptional.",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "label",
+        "title",
+        "subtitle"
+      ],
+      "settings": {
+        "image_overlay_opacity": 65,
+        "image_height": "large",
+        "desktop_content_position": "middle-center",
+        "show_text_box": false,
+        "desktop_content_alignment": "center",
+        "color_scheme": "scheme-3",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": false,
+        "show_text_below": false
+      }
+    },
+    "support_links": {
+      "type": "multicolumn",
+      "blocks": {
+        "track": {
+          "type": "column",
+          "settings": {
+            "title": "Track Your Order",
+            "text": "<p>Check status and shipping updates in one place.<\/p>",
+            "link_label": "Open",
+            "link": "/pages/track-order"
+          }
+        },
+        "faq": {
+          "type": "column",
+          "settings": {
+            "title": "Frequently Asked Questions",
+            "text": "<p>Answers for sizing, shipping, and care.<\/p>",
+            "link_label": "View FAQ",
+            "link": "/pages/faq"
+          }
+        },
+        "returns": {
+          "type": "column",
+          "settings": {
+            "title": "Returns & Exchanges",
+            "text": "<p>Start a return or exchange within 30 days.<\/p>",
+            "link_label": "Returns",
+            "link": "/pages/returns"
+          }
+        },
+        "contact": {
+          "type": "column",
+          "settings": {
+            "title": "Concierge",
+            "text": "<p>Personal assistance for fit, orders, or styling.<\/p>",
+            "link_label": "Contact",
+            "link": "/pages/contact"
+          }
+        }
+      },
+      "block_order": [
+        "track",
+        "faq",
+        "returns",
+        "contact"
+      ],
+      "settings": {
+        "title": "Choose a path",
+        "heading_size": "h2",
+        "image_width": "half",
+        "image_ratio": "adapt",
+        "columns_desktop": 4,
+        "column_alignment": "left",
+        "background_style": "accent",
+        "button_label": "",
+        "button_link": "",
+        "swipe_on_mobile": false,
+        "color_scheme": "scheme-2",
+        "columns_mobile": "1",
+        "padding_top": 28,
+        "padding_bottom": 24
+      }
+    },
+    "contact_info": {
+      "type": "multicolumn",
+      "blocks": {
+        "email": {
+          "type": "column",
+          "settings": {
+            "title": "Email",
+            "text": "<p>concierge@minervalifestyle.com<\/p>",
+            "link_label": "Email Us",
+            "link": "mailto:concierge@minervalifestyle.com"
+          }
+        },
+        "phone": {
+          "type": "column",
+          "settings": {
+            "title": "Phone",
+            "text": "<p>+91 78889 89996<\/p><p>Mon-Sat 10:00-19:00 IST<\/p>",
+            "link_label": "Call",
+            "link": "tel:+917888989996"
+          }
+        },
+        "visit": {
+          "type": "column",
+          "settings": {
+            "title": "Visit",
+            "text": "<p>G-203, Ekta Bhoomi Gardens<\/p><p>Borivali East, Mumbai 400066<\/p>",
+            "link_label": "Maps",
+            "link": "https://maps.google.com"
+          }
+        }
+      },
+      "block_order": [
+        "email",
+        "phone",
+        "visit"
+      ],
+      "settings": {
+        "title": "Get in touch",
+        "heading_size": "h2",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 3,
+        "column_alignment": "left",
+        "background_style": "none",
+        "button_label": "",
+        "button_link": "",
+        "swipe_on_mobile": false,
+        "color_scheme": "scheme-1",
+        "columns_mobile": "1",
+        "padding_top": 24,
+        "padding_bottom": 20
+      }
+    },
+    "promise": {
+      "type": "rich-text",
+      "blocks": {
+        "text": {
+          "type": "text",
+          "settings": {
+            "text": "<p><em>We respond to all inquiries within 24 hours, because your time is as valuable as ours.<\/em><\/p><p class=\"caption-with-letter-spacing\">— The Minerva Concierge Promise<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "text"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "scheme-2",
+        "full_width": true,
+        "padding_top": 24,
+        "padding_bottom": 32
+      }
+    }
+  },
+  "order": [
+    "hero",
+    "support_links",
+    "contact_info",
+    "promise"
+  ]
+}

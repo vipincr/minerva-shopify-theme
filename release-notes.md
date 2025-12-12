@@ -1,1 +1,4 @@
-Dawn 15.4.1 introduces improvements for performance monitoring.
+# Release Notes
+
+- 2025-12-12 — Added Minerva-aligned templates for Philosophy, Support, FAQ, Returns, Contact, Track Order, Shipping, Terms, and Privacy pages; refreshed product template defaults to match brand design notes and care language; aligned cart featured collection copy; confirmed a clean `shopify theme check` after changes.
+- 2025-12-12 — Rebranded Dawn 15.4.1 into the Minerva Lifestyle Shopify Theme. Added Minerva design tokens and typography defaults, aligned color schemes, updated homepage template, footer defaults, and theme metadata. Docs/templates updated to Minerva voice.
