@@ -1,4 +1,5 @@
 # Release Notes
 
+- 2025-12-12 — Fixed broken preview/404 issue: updated header-group (announcement), footer-group (Minerva branding), and 404 template (featured collection); rewrote SHOPIFY-ADMIN.md with critical first-time setup steps and troubleshooting; theme check clean (174 files).
 - 2025-12-12 — Added Minerva-aligned templates for Philosophy, Support, FAQ, Returns, Contact, Track Order, Shipping, Terms, and Privacy pages; refreshed product template defaults to match brand design notes and care language; aligned cart featured collection copy; confirmed a clean `shopify theme check` after changes.
 - 2025-12-12 — Rebranded Dawn 15.4.1 into the Minerva Lifestyle Shopify Theme. Added Minerva design tokens and typography defaults, aligned color schemes, updated homepage template, footer defaults, and theme metadata. Docs/templates updated to Minerva voice.
