@@ -1,3 +1,4 @@
+/* Minerva card styling - aligned with brand design system */
 .card-wrapper {
   color: inherit;
   height: 100%;
@@ -8,6 +9,7 @@
 .card {
   text-decoration: none;
   text-align: var(--text-alignment);
+  transition: transform var(--transition-normal, 200ms ease), box-shadow var(--transition-normal, 200ms ease);
 }
 
 .card:not(.ratio) {
@@ -38,6 +40,7 @@
 
 .card--card {
   height: 100%;
+  background-color: var(--color-white, #ffffff);
 }
 
 .card--card,
@@ -46,6 +49,14 @@
   box-sizing: border-box;
   border-radius: var(--border-radius);
   border: var(--border-width) solid rgba(var(--color-foreground), var(--border-opacity));
+  transition: border-color var(--transition-normal, 200ms ease), box-shadow var(--transition-normal, 200ms ease);
+}
+
+/* Minerva hover effect - subtle lift with shadow */
+.card-wrapper:hover .card--card,
+.card-wrapper:hover .card--standard .card__inner {
+  border-color: var(--color-stone-mid, #c9c2b8);
+  box-shadow: var(--shadow-md, 0 4px 16px rgba(61, 58, 54, 0.06));
 }
 
 .card--card:after,

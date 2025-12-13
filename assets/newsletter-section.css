@@ -1,3 +1,4 @@
+/* Minerva newsletter section - "Join the Archive" styling from CONTENT.md */
 .newsletter__wrapper {
   padding-right: calc(4rem / var(--font-body-scale));
   padding-left: calc(4rem / var(--font-body-scale));
@@ -23,10 +24,29 @@
   margin-top: 3rem;
 }
 
+/* "Join the Archive" label styling */
+.newsletter__label {
+  font-family: 'DM Sans', var(--font-body-family);
+  font-size: 0.75rem;
+  font-weight: 600;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  margin-bottom: 1rem;
+}
+
+/* "Be the First to Know" headline styling */
+.newsletter__heading {
+  font-family: 'Tenor Sans', var(--font-heading-family);
+  letter-spacing: 0.02em;
+}
+
 .newsletter__subheading {
   max-width: 70rem;
   margin-left: auto;
   margin-right: auto;
+  font-family: 'Inter', var(--font-body-family);
+  line-height: 1.7;
+  letter-spacing: -0.005em;
 }
 
 .newsletter__wrapper .newsletter-form__field-wrapper {
@@ -35,6 +55,13 @@
 
 .newsletter-form__field-wrapper .newsletter-form__message {
   margin-top: 1.5rem;
+}
+
+/* Success message: "Welcome to the Archive." */
+.newsletter-form__message--success {
+  font-family: 'Tenor Sans', var(--font-heading-family);
+  font-size: 1.25rem;
+  letter-spacing: 0.02em;
 }
 
 .newsletter__button {
